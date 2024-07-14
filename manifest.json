@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
     "name": "My Plugin Name",
     "entry": "main.lua",
     "plugin_version": [
@@ -7,6 +7,16 @@
         0,
         0
     ],
-    "author": "My Name",
-    "description": "My Plugin Description"
+    "author": [
+        "My Name"
+    ],
+    "description": "My Plugin Description",
+    "platform": {
+        "os": [
+            "GOOS"
+        ],
+        "arch": [
+            "GOARCH"
+        ]
+    }
 }
